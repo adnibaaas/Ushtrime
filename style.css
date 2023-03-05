@@ -1,0 +1,70 @@
+.box {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    background-color: green;
+    border: 2px solid red;
+}
+
+.boxx {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(133, 7, 7);
+    border: 2px solid rgb(7, 203, 7);
+}
+
+.box-1 {
+    right: 100;
+    left: 0;
+    top: 0;
+    bottom: 100;
+}
+
+.box-2 {
+    left: 100;
+    right: 0;
+    top: 0;
+    bottom: 100;
+}
+
+.box-3 {
+    left: 100;
+    right: 0;
+    top: 100;
+    bottom: 0;
+}
+
+.box-4 {
+    left: 0;
+    right: 100;
+    top: 100;
+    bottom: 0;
+}
+
+.box-5 {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box-6 {
+    left: 48%;
+    top: 56%;
+}
+
+.box-7 {
+    left: 48%;
+    top: 37%;
+}
+
+.box-8 {
+    left: 44%;
+    top: 46%;
+}
+
+.box-9 {
+    left: 53%;
+    top: 46%;
+}
